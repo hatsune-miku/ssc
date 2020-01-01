@@ -76,20 +76,20 @@ $ apt install libssl-dev
 
 * init this program
 ```bash
-# this should finish in 5 mins.
+# this should finish in 5 min.
 # if didn't, use a VPN or switch to a chinese repository.
 $ bundle install
 
 # for slower CPU(s), these can take EXTREMELY LOOOOOOOOOOONG in first run.
-$ yarn install            # about 25 mins on a raspberry pi.
+$ yarn install            # about 25 min on a raspberry pi.
                           # several seconds on a mbp 2018.
                           
 $ RAILS_ENV=production    # in a instant
 
-$ ./bin/webpack           # about 25 mins on a raspberry pi.
+$ ./bin/webpack           # about 25 min on a raspberry pi.
                           # several seconds on a mbp 2018.
 
-$ rake assets:precompile  # about 25 mins on a raspberry pi.
+$ rake assets:precompile  # about 25 min on a raspberry pi.
                           # several seconds on a mbp 2018.
 
 $ rake db:create          # about 5 s
