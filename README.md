@@ -1,6 +1,11 @@
 # SSC by EGGTART😈
 # how to run this program without error:
 
+* both apt and gem require sudo
+```bash
+$ su
+```
+
 * ensure **ruby** version >= 2.5
 ```bash
 $ apt uninstall ruby
