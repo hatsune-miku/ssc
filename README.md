@@ -80,13 +80,13 @@ $ apt install libssl-dev
 # if didn't, use a VPN or switch to a chinese repository.
 $ bundle install
 
-# these can take EXTREMELY LOOOOOOOOOOONG in first run (about 1 hour in total) in slower CPU(s).
-$ yarn install
-$ RAILS_ENV=production
-$ ./bin/webpack
-$ rake assets:precompile
-$ rake db:create
-$ rake db:migrate
+# these can take EXTREMELY LOOOOOOOOOOONG in first run (about 1 hour 15 mins in total) in slower CPU(s).
+$ yarn install            # about 25 mins
+$ RAILS_ENV=production    # in a instant
+$ ./bin/webpack           # about 25 mins
+$ rake assets:precompile  # about 25 mins
+$ rake db:create          # about 5 s
+$ rake db:migrate         # about 5 s
 ```
 
 * finally, start the server at localhost:80
