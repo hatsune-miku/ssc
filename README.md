@@ -76,7 +76,11 @@ $ apt install libssl-dev
 
 * init this program
 ```bash
+# this should finish in 5 mins.
+# if didn't, use a VPN or switch to a chinese repository.
 $ bundle install
+
+# these can take significantly long in first run (about 1 hour in total) in slower CPU(s).
 $ yarn install
 $ RAILS_ENV=production
 $ ./bin/webpack
