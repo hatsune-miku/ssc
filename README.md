@@ -82,15 +82,15 @@ $ bundle install
 
 # for slower CPU(s), these can take EXTREMELY LOOOOOOOOOOONG in first run.
 $ yarn install            # about 25 mins on a raspberry pi.
-                          # several seconds on a macbook pro 2018.
+                          # several seconds on a mbp 2018.
                           
 $ RAILS_ENV=production    # in a instant
 
 $ ./bin/webpack           # about 25 mins on a raspberry pi.
-                          # several seconds on a macbook pro 2018.
+                          # several seconds on a mbp 2018.
 
 $ rake assets:precompile  # about 25 mins on a raspberry pi.
-                          # several seconds on a macbook pro 2018.
+                          # several seconds on a mbp 2018.
 
 $ rake db:create          # about 5 s
 
