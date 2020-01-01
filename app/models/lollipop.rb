@@ -1,0 +1,2 @@
+class Lollipop < ApplicationRecord
+end

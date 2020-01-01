@@ -1,0 +1,13 @@
+// Place all the styles related to the main controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+@import 'globalss';
+
+body {
+  background-color: $background-color;
+}
+
+* {
+  font-family: 'PingFang SC', 'Microsoft YaHei', sans-serif;
+}

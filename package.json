@@ -1,0 +1,19 @@
+{
+  "name": "ssc",
+  "private": true,
+  "dependencies": {
+    "@rails/webpacker": "3.5",
+    "axios": "^0.19.0",
+    "default-passive-events": "^1.0.10",
+    "element-ui": "^2.13.0",
+    "promise.prototype.finally": "^3.1.2",
+    "vue": "^2.6.11",
+    "vue-loader": "14.2.2",
+    "vue-template-compiler": "^2.6.11"
+  },
+  "devDependencies": {
+    "node-sass": "^4.13.0",
+    "sass-loader": "^7.3.1",
+    "webpack-dev-server": "2.11.2"
+  }
+}
